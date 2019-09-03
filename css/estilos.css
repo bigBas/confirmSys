@@ -1,0 +1,157 @@
+/*
+
+    azul header: #1B3D70;
+    dorado navbar: #bb8800;
+
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+html {
+    font-family: 'Roboto', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+.head-container{
+    background-color:#1B3D70;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 0px;
+    /* width: 70%; */
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px 20px;
+}
+.main-nav {
+    background-color: #bb8800;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: auto;
+    height: 36px;
+    margin-right: auto;
+    /* width: 70%; */
+}
+.main-nav ul li{
+     display: inline-block;
+     font-weight: 500;
+     padding: 10px 20px; 
+}
+.main-nav ul a li{
+    color: #fff;
+    height: inherit;
+}
+.main-nav ul a li:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 150px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content */
+  .modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 400px;
+    height: 300px;
+    
+  }
+  .modal-content p {
+      text-align: center;
+      margin-top: 30%;
+  }
+
+  /* The Close Button */
+  .close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+.form-confir{
+    /* background-color: #f2f2f2; */
+    width: 400px;
+    height: 320px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    margin: 40px auto;
+    text-align: center;
+    padding-top: 30px;
+    border-radius: 40px;
+    -webkit-box-shadow: 0px 0px 30px -7px rgba(122,122,122,1);
+    -moz-box-shadow: 0px 0px 30px -7px rgba(122,122,122,1);
+    box-shadow: 0px 0px 30px -7px rgba(122,122,122,1);
+}
+.form-confir i {
+    font-size: 60px;
+    color: #495057;
+    margin-bottom: 20px;
+}
+.form-confir h1 {
+    color: #495057;
+    font-size: 1.3em;
+    margin-bottom: 20px;
+}
+.form-confir input {
+    min-width: 300px;
+    border-radius: 10px;
+    height: 45px;
+    border: 0.1px solid #495057;
+    font-size: 0.8rem;
+    padding: 0px 20px;
+    margin-bottom: 15px;
+    font-weight: 900;
+    font-family: 'Roboto', sans-serif;
+}
+.form-confir input::placeholder {
+    color: #495057;
+    opacity: 1;
+}
+
+.btn-su {
+    background-color: #007bff;
+    color: #fff!important;
+    font-weight: bold;
+    cursor: pointer;
+    border: none!important;
+}
+
+
+footer {
+    background-color: #1B3D70;
+    /* width: 70%; */
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: #fff;
+    padding: 20px 0px;
+    font-size: .82rem;
+}
+
