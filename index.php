@@ -37,7 +37,7 @@
 
     </div>
 
-    <form action="index.html" method="GET" class="form-confir">
+    <form action="" method="POST" class="form-confir">
         <i class="fab fa-linux" title="¡Soy Tux!" ></i>
         <h1> Confirmación de Inscripción</h1>
         <input type="text" name="accountNum" placeholder="Introduce tu numero de cuenta: " >
@@ -45,3 +45,16 @@
     </form>
     
 <?php include 'views/footer.php'; ?>
+
+
+ <?php
+
+    $cuenta = $_POST['accountNum'];
+
+    if(isset($_POST['sub'])){
+
+        echo $cuenta;
+
+    }
+
+ ?>
