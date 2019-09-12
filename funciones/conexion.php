@@ -1,7 +1,7 @@
 <?php
 
     try {
-        $conexion = new PDO('mysql:host=localhost;dbname=vistaPrueba', 'root', '123');
+        $conexion = new PDO('mysql:host=132.248.80.194;dbname=sat', 'vista_sat', 'vista');
         return $conexion;
     } catch (PDOException $e) {
         echo "Error: " . $e->getMessage();

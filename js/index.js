@@ -8,9 +8,18 @@ var btn = document.getElementById("myBtn");
 var span = document.getElementsByClassName("close")[0];
 
 // When the user clicks the button, open the modal 
-btn.onclick = function() {
-  modal.style.display = "block";
-}
+var account = document.getElementById("myBtn");
+
+// if(account == ''){
+//   modal.style.display = "none";
+// }
+var formRes = document.getElementById('formRes');
+
+function resetear(){
+  document.forms['formRes'].reset();
+  }
+
+btn.onclick = setTimeout(function() { modal.style.display = "block"; }, 10) 
 
 // When the user clicks on <span> (x), close the modal
 span.onclick = function() {
