@@ -1,5 +1,5 @@
 /*
-
+modal
     azul header: #1B3D70;
     dorado navbar: #bb8800;
 
@@ -33,7 +33,7 @@ a{
     justify-content: flex-start;
     align-items: center;
     margin-left: auto;
-    height: 36px;
+    height: 34px;
     margin-right: auto;
     /* width: 70%; */
 }
@@ -62,7 +62,8 @@ a{
     overflow: auto; /* Enable scroll if needed */
     background-color: rgb(0,0,0); /* Fallback color */
     background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
-  }
+    
+  } 
   
   /* Modal Content */
   .modal-content {
@@ -72,11 +73,16 @@ a{
     border: 1px solid #888;
     width: 400px;
     height: 300px;
+    border-radius: 20px;
+    font-family: 'Roboto', sans-serif;
     
   }
   .modal-content p {
       text-align: center;
-      margin-top: 30%;
+      margin-top: 22%;
+  }
+  .format-tex {
+    margin-top:10px!important;
   }
 
   /* The Close Button */

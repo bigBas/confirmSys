@@ -39,7 +39,9 @@
         <!-- Modal content -->
         <div class="modal-content" onload="resetear()">
             <span class="close">&times;</span>
-            <p>EL alumno: <br> <?php echo $results['nombre']; ?> <br> esta registrado correctamente</p>
+            <p>EL alumno: </p>  
+            <p class="format-tex"><b> <?php echo $results['nombre']; ?> </b></p>    
+            <p class="format-tex"> esta registrado correctamente.</p>
         </div>
 
     </div>
