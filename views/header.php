@@ -11,6 +11,6 @@
     <!-- font awesome -->
     <script src="https://kit.fontawesome.com/894f535574.js"></script>
 
-    <title>Fes Acatlán</title>
+    <title>Fes Acatlán | Confirmacion Linux</title>
     <link rel="stylesheet" href="css/estilos.css">
 </head>
